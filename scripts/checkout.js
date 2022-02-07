@@ -5,6 +5,7 @@ function completeOrder(e){
     let address = document.getElementById('address').value;
     if(!name || !number || !address){
         alert('Please enter your details!');
+        return;
     }
     sendAlerts();
 }

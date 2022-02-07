@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input{
+    margin: 2% 0;
+    height: 20px;
+    padding: 2%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2ECC71;
+}
+.btn{
+    height: auto;
+    cursor: pointer;
+    color: #CB4335;
+    background-color: #fff;
+    border: 2px solid #CB4335;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #CB4335;
+    border: 2px solid #fff;
+}

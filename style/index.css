@@ -1,7 +1,31 @@
-img{
-    width: 200px;
-}
 #menu{
     display: grid;
-    grid-template-columns: repeat(4,24%);
+    grid-template-columns: repeat(4,25%);
+    padding: 1%;
+}
+.meal{
+    text-align: center;
+    margin: 2% 4%;
+    padding: 6%;
+}
+.meal:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.meal img{
+    width: 100%;
+}
+.meal button{
+    width: 100%;
+    padding: 2%;
+    font-size: larger;
+    border-radius: 5px;
+    color: #2ECC71;
+    background-color: #fff;
+    border: 2px solid #2ECC71;
+    cursor: pointer;
+}
+.meal button:hover{
+    color: #fff;
+    background-color: #2ECC71;
+    border: 2px solid #fff;
 }

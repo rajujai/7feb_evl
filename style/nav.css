@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+#navbar{
+    background-color: #2E4053;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 700;
+}
+#navbar ul{
+    width: 100%;
+    margin: 0;
+    padding: 1%;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 0;
+}
+#navbar ul li{
+    padding: 0 3%;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+#count{
+    padding-right: 2%;
+}
